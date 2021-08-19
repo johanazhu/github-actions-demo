@@ -26,4 +26,6 @@
 因为俺之前用 Github Page 配置过调整到我的个人wiki页，所以即使这样跳转成功，也还是找不到页面
 http://fe.azhubaby.com/github-actions-github-pages/
 
-所以只能放在另一个自己的二级域名上,github.azhubaby.com
+所以只能放在另一个自己的二级域名上， http://github.azhubaby.com
+
+随便一说，我这域名买了10年，2030年才到期，所以很长一段时间内是有效的
