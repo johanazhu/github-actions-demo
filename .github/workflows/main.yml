@@ -7,24 +7,24 @@ on:
        - main 
        - master
   # 工作任务
-  jobs:
-    build:
-      # 运行的服务器 - ubuntu
-      runs-on: ubuntu-latest
+jobs:
+  build:
+    # 运行的服务器 - ubuntu
+    runs-on: ubuntu-latest
 
-      # 步骤
-      steps:
-        - name: checkout  # 命名
-        - uses: actions/checkout@v2 # 使用 选择分支 的动作
+    # 步骤
+    steps:
+      - name: checkout  # 命名
+      - uses: actions/checkout@v2 # 使用 选择分支 的动作
 
-        - name: 测试
-          run: echo Hello, world!
+      - name: 测试
+        run: echo Hello, world!
 
-        - name: Deploy to GitHub Pages # 部署到 GitHub Pages
-          uses: JamesIves/github-pages-deploy-action@3.7.1
-          with:
-              ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-              # 部署到 gh-pages 分支
-              BRANCH: gh-pages
-              # 部署目录当前目录
-              FOLDER: .
+      - name: Deploy to GitHub Pages # 部署到 GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+            # 部署到 gh-pages 分支
+            BRANCH: gh-pages
+            # 部署目录当前目录
+            FOLDER: .
