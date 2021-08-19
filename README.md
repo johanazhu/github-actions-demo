@@ -22,3 +22,8 @@
 ### 使用场景
 如果我要做 css 效果、做一个 Demo 供别人看，最好是放在网站上，其中 GitHub Page 是最好的选择
 做好 Github Actions，就能做到即写即看，而且能一直保留到 GitHub 关门
+
+因为俺之前用 Github Page 配置过调整到我的个人wiki页，所以即使这样跳转成功，也还是找不到页面
+http://fe.azhubaby.com/github-actions-github-pages/
+
+所以只能放在另一个自己的二级域名上,github.azhubaby.com
